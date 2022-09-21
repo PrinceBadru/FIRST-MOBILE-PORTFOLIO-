@@ -1,0 +1,25 @@
+.first { 
+    display: flex;
+    justify-content: space-between;
+   
+}
+.second {
+    background-image: url("/images/header-illsutration-mobile@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 603px;
+    height: 1000px;
+    line-height: 52px;
+    vertical-align: top;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap
+}
+.third {
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+    font-size:20px ;
+    vertical-align: top;
+}
