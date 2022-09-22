@@ -7,16 +7,15 @@
   background-image: url("/images/header-illsutration-mobile@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 353px;
-  height: 900px;
-  line-height: 52px;
   vertical-align: top;
   text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   font-weight: 700px;
   font-size: 40px;
-  color: #172b4d;
+  color: #172b4d; 
+  padding : 10px 15px 15px 10px;
+  font-family: 'Inter', sans-serif; 
 }
 
 .third {
@@ -36,4 +35,9 @@
   align-items: flex-end;
   list-style: none;
   padding: 0;
+  gap: 20px;
+}
+
+.green {
+  color: #36B37E;
 }
