@@ -6,21 +6,34 @@
 .second {
   background-image: url("/images/header-illsutration-mobile@2x.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 603px;
-  height: 1000px;
+  background-size: contain;
+  width: 353px;
+  height: 900px;
   line-height: 52px;
   vertical-align: top;
   text-align: center;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  font-weight: 700px;
+  font-size: 40px;
+  color: #172b4d;
 }
 
 .third {
+  font-style: normal;
   font-weight: 400;
   text-align: center;
   line-height: 28px;
   font-size: 20px;
   vertical-align: top;
+  color: #172b4d;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  list-style: none;
+  padding: 0;
 }
