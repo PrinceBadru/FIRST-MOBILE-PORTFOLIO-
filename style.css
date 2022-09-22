@@ -13,9 +13,9 @@
   flex-direction: column;
   font-weight: 700px;
   font-size: 40px;
-  color: #172b4d; 
-  padding : 10px 15px 15px 10px;
-  font-family: 'Inter', sans-serif; 
+  color: #172b4d;
+  padding: 10px 15px 15px 10px;
+  font-family: 'Inter', sans-serif;
 }
 
 .third {
@@ -39,5 +39,5 @@
 }
 
 .green {
-  color: #36B37E;
+  color: #36b37e;
 }
