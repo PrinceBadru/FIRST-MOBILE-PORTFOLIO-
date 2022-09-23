@@ -50,23 +50,29 @@
 
 .work-section {
   width: 100%;
-  align-items: cente;
+  align-items: center;
   padding: 10px 15px 15px 10px;
 }
 
 .project-container {
   display: grid;
-  grid-template-columns: 80%;
+  grid-template-columns: 300px;
   grid-template-rows: auto auto auto auto auto auto;
   gap: 20px;
+  justify-content: center;
+  padding: 0;
 }
 
 .project {
   border: 1px solid green;
-  margin: 0;
-  width: 100%;
+  margin: 0 auto;
+  width: 327px;
   padding: 0;
   border-radius: 10px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .recent {
@@ -101,21 +107,22 @@
 
 .language {
   list-style: none;
-  display: flex;
   border: 1px solid #ebf0ee;
   padding: 5px;
   background-color: #ebf0ee;
-  margin: 0;
+  margin: 0 5px;
+  height: 20px;
 }
 
 .lang {
   display: flex;
-  justify-content: space-between;
+  padding: 0;
 }
 
 .multi {
   text-align: center;
   font-size: 25px;
+  margin: 5px 10px;
 }
 
 .butt {
@@ -136,9 +143,11 @@
 
 .about2 {
   text-align: center;
-  align-items: center;
   padding: 15px 20px;
   font-size: 23px;
+  background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .butt2 {
@@ -217,4 +226,19 @@
 .textareas {
   align-items: center;
   text-align: center;
+}
+
+.btn-resume {
+  width: 159px;
+}
+
+.resume-container {
+  background-image: url(/images/Group.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.skills-container {
+  gap: 20px;
+  justify-content: center;
 }
