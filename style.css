@@ -41,3 +41,205 @@
 .green {
   color: #36b37e;
 }
+
+.line {
+  width: 48px;
+  height: 4px;
+  background-color: #36b37e;
+}
+
+.work-section {
+  width: 86%;
+  align-items: center;
+  padding: 10px 15px 15px 10px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+.project {
+  border: 1px solid green;
+  margin: 0;
+  width: 327px;
+  padding: 0;
+  border-radius: 8px;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.recent {
+  text-align: center;
+  font-size: 50px;
+}
+
+.image-placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: 'semi-bold', italic;
+  font-size: 24px;
+  line-height: 32px;
+  line-height: 110%;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #d0d9d4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn {
+  background-color: #36b37f;
+  color: white;
+  width: 122px;
+  height: 48px;
+  margin: 20px 0;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+
+.language {
+  list-style: none;
+  border: 1px solid #ebf0ee;
+  padding: 5px;
+  background-color: #ebf0ee;
+  margin: 0 5px;
+  height: 20px;
+}
+
+.lang {
+  display: flex;
+  padding: 0;
+}
+
+.multi {
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 10px;
+}
+
+.butt {
+  text-align: center;
+}
+
+.dis {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about2 {
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 23px;
+  background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.butt2 {
+  text-align: center;
+  background-color: #36b37e;
+  color: white;
+}
+
+.groupimg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn2 {
+  text-align: center;
+}
+
+.project2 {
+  border: 1px solid green;
+  margin: 30px;
+  padding: 20px 1px;
+  height: 250px;
+  background-color: #e2e6ee;
+}
+
+.language-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.lang-text {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.lang-text-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.li-lang {
+  border: 5px solid #fff;
+  background-color: #fff;
+  color: #36b37e;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.get {
+  text-align: center;
+  border: 2px solid #36b37f;
+  background-color: #36b37f;
+}
+
+.last {
+  font-family: 'Inter', sans-serif;
+  font-style: regular;
+  font-size: 20px;
+  text-align: center;
+}
+
+.touch {
+  font-family: 'Inter', sans-serif;
+  font-style: bold;
+  font-size: 43px;
+  text-align: center;
+  align-items: center;
+}
+
+.textareas {
+  align-items: center;
+  text-align: center;
+}
+
+.btn-resume {
+  width: 159px;
+}
+
+.resume-container {
+  background-image: url(/images/Group.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.skills-container {
+  gap: 20px;
+  justify-content: center;
+}
