@@ -222,6 +222,7 @@
   font-size: 43px;
   text-align: center;
   align-items: center;
+  margin-bottom: 58px;
 }
 
 .textareas {
@@ -241,5 +242,34 @@
 
 .skills-container {
   gap: 20px;
+  justify-content: center;
+}
+
+.form-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 1;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+
+textarea {
+  padding: 0%;
+  margin-bottom: 24px;
+  width: 305px;
+  height: 114px;
+}
+
+.button {
+  display: flex;
   justify-content: center;
 }
