@@ -12,14 +12,14 @@
         <a><img src="/images/Welcome.png" alt="welcome button at the top left"></a>
        <nav> <img src="/images/Union.png" alt="a union of three vectors"> </nav>
     </header>
-    <br>
+    <main>
     <section class="second">
       <h1>  Hey there. I’m Mariane <span class="green" >I’m a software developer</span></h1>
     <p>
     I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.</p>
     </section>
-            <ul class = socials>
+            <ul class ="socials">
                 <li><a href="https://twitter.com/BadruNdawula"><img src="/images/twitter.jpg" alt=""></a></li>
                 <li><a href="https://www.linkedin.com/in/badru-ndawula-32b371236/"><img src="/images/Linkedin icon.jpg" alt=""></a></li>
                 <li><a href="https://github.com/PrinceBadru"><img src="/images/github.jpg" alt=""></a></li>
@@ -163,16 +163,37 @@
                 </div>
             </section>
 
-             <div>
+            <section class="form-section">
+             <form action="https://formspree.io/f/mjvzwlqy" method="post">
                 <h2 class="touch">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-                <br>
-                <div class="textareas">
-                <textarea name="name" id="" cols="41" rows="2">Full name</textarea>
-                <textarea name="e-mail" id="" cols="41" rows="2">E-mail address</textarea>
-                <textarea name="text" id="" cols="41" rows="10">Enter text here</textarea>
-                <div class="butt"><button class="btn" type="button"> Get in touch</button></div>
-                </div>
-            </div>
+                <ul>
+                    
+                    <li >
+                        <label for="name">
+                            <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="mail">
+                            <input type="e-mail" id="mail" name="user_email" placeholder="Email address" required>
+                        </label>
+
+                    </li>
+                    <li>
+                        <label for="msg">
+                            <textarea name="user_message" id="msg" cols="30" rows="5" maxlength="500" placeholder="Enter text here" required></textarea>
+                        </label>
+                    </li>
+                    <li class="button">
+                        <button type="submit" class="btn">Get in touch</button>
+                    </li>
+
+
+                </ul>
+                
+             </form>
+            </section>
+                </main>
 
              <ul class = socials>
                 <li><a href="https://twitter.com/BadruNdawula"><img src="/images/twitter.jpg" alt=""></a></li>
