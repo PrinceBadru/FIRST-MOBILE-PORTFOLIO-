@@ -34,7 +34,7 @@
   flex-direction: row;
   align-items: flex-end;
   list-style: none;
-  padding: 0;
+  padding: 5;
   gap: 20px;
 }
 
@@ -104,6 +104,7 @@
   font-size: 17px;
   border: none;
   border-radius: 5px;
+  transition: 0.8s;
 }
 
 .language {
@@ -213,15 +214,22 @@
   font-family: 'Inter', sans-serif;
   font-style: regular;
   font-size: 20px;
-  text-align: center;
+  height: 189px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
 
 .touch {
   font-family: 'Inter', sans-serif;
   font-style: bold;
-  font-size: 43px;
+  font-size: 40px;
   text-align: center;
   align-items: center;
+  margin-bottom: 58px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
 }
 
 .textareas {
@@ -242,4 +250,46 @@
 .skills-container {
   gap: 20px;
   justify-content: center;
+}
+
+.form-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 1;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+
+textarea {
+  padding: 0%;
+  margin-bottom: 24px;
+  width: 305px;
+  height: 114px;
+}
+
+.button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: solid #36b37f;
+  transition: 0.8s;
+}
+
+.back-image {
+  height: 131px;
+  background-image: url(/images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
