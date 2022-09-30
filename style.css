@@ -1,6 +1,6 @@
 .first {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .second {
@@ -144,7 +144,6 @@
 
 .about2 {
   text-align: center;
-  
   font-size: 23px;
   background-image: url(/images/illustration-about\ me-1-desktop@2x.jpg);
   background-repeat: no-repeat;
@@ -257,7 +256,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  
 }
 
 ul {
@@ -285,13 +283,14 @@ textarea {
 }
 
 .btn:hover {
-  background-color:#36B37F;
-   transition: 0.8s; 
+  background-color: #36b37f;
+  transition: 0.8s;
 }
 
 .btn:active {
-background-color:black;
-/* transition: 0.8s; */
+  background-color: black;
+
+  /* transition: 0.8s; */
 }
 
 .back-image {
@@ -301,51 +300,52 @@ background-color:black;
   background-position: right;
 }
 
-@media (min-width: 678px){
-
+@media (min-width: 678px) {
   .first {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 100vw;
     min-height: 8vh;
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     background-color: transparent;
-
   }
+
   .second {
-   background-image: url(./images/Header-llustration-desktop.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   gap:0;
-   width: 100vw;
-   height: 100vh;
-   text-align: center;
-   display:flex;
-   justify-content: center;
-   align-items: center;
-    }
+    background-image: url(./images/Header-llustration-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .second h1 {
-      margin:0 0 24px 0;
-}
+    margin: 0 0 24px 0;
+  }
 
   .header-first {
     display: flex;
     justify-content: center;
     gap: 50px;
     font-size: 15px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
   }
+
   .second-text {
-    padding: 10px 0px;
+    padding: 10px 0;
     font-size: 20px;
     display: flex;
     justify-content: center;
     width: 50%;
     margin: 0 auto;
   }
+
   .socials {
     display: flex;
     justify-content: center;
@@ -354,27 +354,28 @@ background-color:black;
     list-style: none;
     gap: 20px;
   }
+
   .socials-list {
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
   }
+
   .disabled {
     height: 40px;
     width: 40px;
   }
+
   .recent {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
-
   }
 
   .project-container {
     display: flex;
     padding: 30px 30px;
-
   }
 
   .design-1 {
@@ -389,16 +390,17 @@ background-color:black;
     text-align: center;
     width: 920px;
     font-size: 23px;
-    
+    background-image: url(./images/illustration-about\ me-1-desktop@2x.jg);
+    background-repeat: no-repeat;
+    background-position: top right;
   }
-  
+
   .aboutme-container {
     width: 100vw;
     margin-top: 112px;
     display: flex;
     align-items: center;
     flex-direction: column;
-   
   }
 
   .skills-container {
@@ -410,44 +412,35 @@ background-color:black;
     border: 1px solid green;
     margin: 30px;
     padding: 20px 1px;
-    width:374px;
+    width: 374px;
     height: 250px;
     background-color: #e2e6ee;
   }
+
   .form-section {
     display: flex;
     justify-content: center;
-    background-image:url(./images/illustration-1-contact-form-desktop.png);
-    background-repeat: no-repeat;
-    background-position: bottom left;
     width: 76%;
-    margin:80px auto 110px;
-   }
+    margin: 80px auto 110px;
+  }
 
   .form-description {
-    width:40%;
+    width: 40%;
   }
+
   .contact-form {
-    width:55%;
+    width: 55%;
   }
 
   input,
   textarea {
     width: 100%;
   }
-  .about2 {
-    text-align: center;
-    font-size: 23px;
-    background-image: url(./images/illustration-about\ me-1-desktop@2x.jg);
-    background-repeat: no-repeat;
-    background-position: top right;
-  }
 
   .resume-container {
     background-image: url(./images/illustration-about-me-2-desktop.pg);
     background-repeat: no-repeat;
     background-position: bottom left;
-    
   }
 
   .new-background {
@@ -459,83 +452,81 @@ background-color:black;
 
   .work-section {
     width: 100vw;
-    min-height:100vh ;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+
   .about-text {
     width: 920px;
     font-size: 20px;
-    
   }
+
   .aboutme section {
     margin: 112px 0 0 0 0;
   }
+
   .new section {
-    display:flex;
+    display: flex;
   }
 
-.touch {
-  font-family: 'Inter', sans-serif;
-  font-style: bold;
-  font-size: 40px;
-  text-align: center;
-  align-items: center;
-  font-weight: 700;
-  color: #172b4d;
-}
+  .touch {
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    color: #172b4d;
+  }
 
-.button {
-  height: 50px;
-  display: flex;
-  justify-content: flex-start;
-}
+  .button {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+  }
 
-.last {
-  height:10px;
-}
+  .last {
+    height: 10px;
+  }
 
-.back-image{
-  display: none ;
-}
+  .back-image {
+    display: none;
+  }
 
-.form-section {
-  background: none;
-}
   p {
-  animation-duration: 3s;
-   animation-name: slidein;
-   animation-iteration-count:infinite;
-   animation-direction: alternate;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
-} 
 
-.header-first:hover {
-  border-style: solid;
-  border-width: 1px;
-  display: flex;
-  width: 400px;
-  height: 50px;
-  background-color: #ff003c;
-  transition: width 2s, height 2s, background-color 4s, transform 4s;
-  
-}
+  .header-first:hover {
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color: #ff003c;
+    transition: width 2s, height 2s, background-color 4s, transform 4s;
+  }
 
-.socials-list:hover {
-  font-size: 10px;
-  transition: transform 4s;
-}
-
+  .socials-list:hover {
+    font-size: 10px;
+    transition: transform 4s;
+  }
 }
