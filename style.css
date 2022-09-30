@@ -504,5 +504,33 @@ background-color:black;
 .form-section {
   background: none;
 }
+  p {
+  animation-duration: 3s;
+   animation-name: slidein;
+   animation-iteration-count:infinite;
+   animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.header-first:hover {
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  width: 400px;
+  height: 50px;
+  background-color: #ff003c;
+  transition: width 2s, height 2s, background-color 4s, transform 4s;
+  
+}
 
 }
