@@ -4,7 +4,7 @@
 }
 
 .second {
-  background-image: url("/images/header-illsutration-mobile@2x.png");
+  background-image: url(./images/header-illsutration-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: top;
@@ -242,7 +242,7 @@
 }
 
 .resume-container {
-  background-image: url(/images/Group.png);
+  background-image: url(./images/Group.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -289,7 +289,7 @@ textarea {
 
 .back-image {
   height: 131px;
-  background-image: url(/images/illustration-contact-form.png);
+  background-image: url(./images/illustration-contact-form.png);
   background-repeat: no-repeat;
   background-position: right;
 }
