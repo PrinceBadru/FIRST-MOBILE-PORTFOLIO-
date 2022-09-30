@@ -283,18 +283,15 @@ textarea {
 }
 
 .btn:hover {
-  background-color: #36B37F;
-  
+  background-color: #36b37f;
 }
 
 .btn:enabled {
-  background-color: #36B37F;
-
+  background-color: #36b37f;
 }
 
 .btn:active {
   background-color: #008552;
-
 }
 
 .back-image {
