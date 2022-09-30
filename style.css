@@ -520,7 +520,7 @@ background-color:black;
     margin-left: 0%;
     width: 100%;
   }
-}
+} 
 
 .header-first:hover {
   border-style: solid;
@@ -531,6 +531,11 @@ background-color:black;
   background-color: #ff003c;
   transition: width 2s, height 2s, background-color 4s, transform 4s;
   
+}
+
+.socials-list:hover {
+  font-size: 10px;
+  transition: transform 4s;
 }
 
 }
