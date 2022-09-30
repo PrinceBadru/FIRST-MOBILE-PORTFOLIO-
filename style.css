@@ -283,13 +283,23 @@ textarea {
 }
 
 .btn:hover {
-  background-color: solid #36b37f;
-  transition: 0.8s;
+  background-color: #36B37F;
+  
+}
+
+.btn:enabled {
+  background-color: #36B37F;
+
+}
+
+.btn:active {
+  background-color: #008552;
+
 }
 
 .back-image {
   height: 131px;
-  background-image: url(/images/illustration-contact-form.png);
+  background-image: url(./images/illustration-contact-form.png);
   background-repeat: no-repeat;
   background-position: right;
 }
