@@ -1,210 +1,295 @@
-<!DOCTYPE html>
-<html lang="en">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Mobile Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <header class="first">
-        <a><img src="/images/Welcome.png" alt="welcome button at the top left"></a>
-       <nav> <img src="/images/Union.png" alt="a union of three vectors"> </nav>
-    </header>
-    <br>
-    <section class="second">
-      <h1>  Hey there. I’m Mariane <span class="green" >I’m a software developer</span></h1>
-    <p>
-    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-        don’t hestiate to contact me.</p>
-    </section>
-            <ul class = socials>
-                <li><a href="https://twitter.com/BadruNdawula"><img src="/images/twitter.jpg" alt=""></a></li>
-                <li><a href="https://www.linkedin.com/in/badru-ndawula-32b371236/"><img src="/images/Linkedin icon.jpg" alt=""></a></li>
-                <li><a href="https://github.com/PrinceBadru"><img src="/images/github.jpg" alt=""></a></li>
-                <li><a><img src="/images/medium.jpg" alt=""><a></li>
-                <li><a><img src="/images/angellist.jpg" alt=""></a></li>
-            </ul> <br>
+.first {
+  display: flex;
+  justify-content: space-between;
+}
 
-            <div class="dis"><img src="/images/Disabled.png" alt="" > </div>
-            <section class = "work-section">
-             <h2 class ="recent" >My Recent Works</h2>
-             <hr class="line">
-            <div class ="project-container">
-                <article class="project">
-                    <div class ="image-placeholder"></div>
-                    <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                    <ul class ="lang">
-                        <li class="language">html</li>
-                        <li class="language">css</li>
-                        <li class="language">javascript</li>
-                        <li class="language">Ruby on rails</li>
-                    </ul>
-                    <div class="butt"><button class="btn" type="button"> See Project</button></div>
-                </article>
-                <article class="project">
-                    <div class ="image-placeholder"></div>
-                    <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                    <ul class ="lang">
-                        <li class="language">html</li>
-                        <li class="language">css</li>
-                        <li class="language">javascript</li>
-                        <li class="language">Ruby on rails</li>
-                    </ul>
-                    <div class="butt"><button class="btn" type="button"> See Project</button></div>
-                </article>
-                <article class="project">
-                    <div class ="image-placeholder"></div>
-                    <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                    <ul class ="lang">
-                        <li class="language">html</li>
-                        <li class="language">css</li>
-                        <li class="language">javascript</li>
-                        <li class="language">Ruby on rails</li>
-                    </ul>
-                    <div class="butt"><button class="btn" type="button"> See Project</button></div>
-                </article>
-                <article class="project">
-                    <div class ="image-placeholder"></div>
-                    <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                    <ul class ="lang">
-                        <li class="language">html</li>
-                        <li class="language">css</li>
-                        <li class="language">javascript</li>
-                        <li class="language">Ruby on rails</li>
-                    </ul>
-                    <div class="butt"><button class="btn" type="button"> See Project</button></div>
-                </article> 
-                <article class="project">
-                    <div class ="image-placeholder"></div>
-                    <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                    <ul class ="lang">
-                        <li class="language">html</li>
-                        <li class="language">css</li>
-                        <li class="language">javascript</li>
-                        <li class="language">Ruby on rails</li>
-                    </ul>
-                    <div class="butt"><button class="btn" type="button"> See Project</button></div>
-                </article>
-                 <article class="project">
-                    <div class ="image-placeholder"></div>
-                    <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                    <ul class ="lang">
-                        <li class="language">html</li>
-                        <li class="language">css</li>
-                        <li class="language">javascript</li>
-                        <li class="language">Ruby on rails</li>
-                    </ul>
-                    <div class="butt"><button class="btn" type="button"> See Project</button></div>
-                </article>
-            </div>
-            </section>
-            <section>
-                <div class="about2">
-                    <h2>About me</h2>
+.second {
+  background-image: url(./images/header-illsutration-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: top;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 700px;
+  font-size: 40px;
+  color: #172b4d;
+  padding: 10px 15px 15px 10px;
+  font-family: 'Inter', sans-serif;
+}
 
-                <div class="about">
-                </div>
-                <div class="about-text">
-                I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.
-                </div>
-            </div>
-                <div class="butt resume-container"><button class="btn btn-resume" type="button"> Get My Resume</button></div>
-                
-                <div class="skills-container">
-                <article class="project2">
-                <div class="language-icon"><img src="/images/icon-languages (1).png" alt=""></div>
-                <div class="lang-text">Languages </div>
-                    <ul>
-                    <div class="lang-text-list">
-                        <li  class="li-lang">Javascript</li>
-                        <li class="li-lang">Ruby</li>
-                        <li class="li-lang">html</li>
-                        <li class="li-lang">css</li>
-                    </div>
-                    </ul>
+.third {
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28px;
+  font-size: 20px;
+  vertical-align: top;
+  color: #172b4d;
+}
 
-                </article>
-                <article class="project2">
-                    <div class="language-icon"> <img src="/images/icon-frameworks (1).png" alt=""></div>
-                    <div class="lang-text">Frameworks </div>
-                    <div class="">
-                    <ul>
-                    <div class="lang-text-list">
-                        <li class="li-lang">Bootstrap</li>
-                        <li class="li-lang">Ruby on rails</li>
-                        <li class="li-lang">Rspec</li>
-                        <li class="li-lang">css</li>
-                        <li class="li-lang">Capybara</li>
-                        <li class="li-lang">Selenium</li>
-                    </div>
-                    </ul>
-                    </div>
-    
-                </article>
-                <article class="project2">
-                    <div class="language-icon"><img src="/images/icon-skills (1).png" alt=""></div>
-                    <div class="lang-text">Skills</div>
-                    <div class="">
-                    <ul>
-                    <div class="lang-text-list">
-                        <li class="li-lang" >CodeKit</li>
-                        <li class="li-lang">Github</li>
-                        <li class="li-lang">Codepen</li>
-                        <li class="li-lang">Gitlab</li>
-                        <li class="li-lang">Terminal</li>
-                    </div>
-                    </ul>
-                    </div>
-    
-                </article>
-                </div>
-            </section>
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  list-style: none;
+  padding: 5;
+  gap: 20px;
+}
 
-            <section class="form-section">
-             <form action="https://formspree.io/f/mjvzwlqy" method="post">
-                <p class="touch">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-                <ul>
-                    
-                    <li >
-                        <label for="name">
-                            <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
-                        </label>
-                    </li>
-                    <li>
-                        <label for="mail">
-                            <input type="email" id="mail" name="user_email" placeholder="Email address" required>
-                        </label>
+.green {
+  color: #36b37e;
+}
 
-                    </li>
-                    <li>
-                        <label for="msg">
-                            <textarea name="user_message" id="msg" cols="30" rows="5" maxlength="500" placeholder="Enter text here" required></textarea>
-                        </label>
-                    </li>
-                    <li class="button back-image">
-                        <button type="submit" class="btn">Get in touch</button>
-                    </li>
+.line {
+  width: 48px;
+  height: 4px;
+  background-color: #36b37e;
+}
 
+.work-section {
+  width: 86%;
+  align-items: center;
+  padding: 10px 15px 15px 10px;
+}
 
-                </ul>
+.project-container {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+}
 
-             </form>
-            </section>
-            
-             <ul class = socials>
-                <li><a href="https://twitter.com/BadruNdawula"><img src="/images/twitter.jpg" alt=""></a></li>
-                <li><a href="https://www.linkedin.com/in/badru-ndawula-32b371236/"><img src="/images/Linkedin icon.jpg" alt=""></a></li>
-                <li><a href="https://github.com/PrinceBadru"><img src="/images/github.jpg" alt=""></a></li>
-                <li><a><img src="/images/medium.jpg" alt=""><a></li>
-                <li><a><img src="/images/angellist.jpg" alt=""></a></li>
-            </ul> 
+.project {
+  border: 1px solid green;
+  margin: 0;
+  width: 327px;
+  padding: 0;
+  border-radius: 8px;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
 
-            
-        
-            <div class="last">badrundawula23@gmail.com</div>
+.recent {
+  text-align: center;
+  font-size: 50px;
+}
 
-</body>
-</html>
+.image-placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: 'semi-bold', italic;
+  font-size: 24px;
+  line-height: 32px;
+  line-height: 110%;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #d0d9d4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn {
+  background-color: #36b37f;
+  color: white;
+  width: 122px;
+  height: 48px;
+  margin: 20px 0;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.language {
+  list-style: none;
+  border: 1px solid #ebf0ee;
+  padding: 5px;
+  background-color: #ebf0ee;
+  margin: 0 5px;
+  height: 20px;
+}
+
+.lang {
+  display: flex;
+  padding: 0;
+}
+
+.multi {
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 10px;
+}
+
+.butt {
+  text-align: center;
+}
+
+.dis {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about2 {
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 23px;
+  background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.butt2 {
+  text-align: center;
+  background-color: #36b37e;
+  color: white;
+}
+
+.groupimg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn2 {
+  text-align: center;
+}
+
+.project2 {
+  border: 1px solid green;
+  margin: 30px;
+  padding: 20px 1px;
+  height: 250px;
+  background-color: #e2e6ee;
+}
+
+.language-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.lang-text {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.lang-text-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.li-lang {
+  border: 5px solid #fff;
+  background-color: #fff;
+  color: #36b37e;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.get {
+  text-align: center;
+  border: 2px solid #36b37f;
+  background-color: #36b37f;
+}
+
+.last {
+  font-family: 'Inter', sans-serif;
+  font-style: regular;
+  font-size: 20px;
+  height: 189px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.touch {
+  font-family: 'Inter', sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 58px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.textareas {
+  align-items: center;
+  text-align: center;
+}
+
+.btn-resume {
+  width: 159px;
+}
+
+.resume-container {
+  background-image: url(./images/Group.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.skills-container {
+  gap: 20px;
+  justify-content: center;
+}
+
+.form-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 1;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+
+textarea {
+  padding: 0%;
+  margin-bottom: 24px;
+  width: 305px;
+  height: 114px;
+}
+
+.button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: solid #36b37f;
+  transition: 0.8s;
+}
+
+.back-image {
+  height: 131px;
+  background-image: url(./images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
