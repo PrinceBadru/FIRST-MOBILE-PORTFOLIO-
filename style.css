@@ -295,6 +295,10 @@ textarea {
   background-color: #36b37f;
 }
 
+.bottom-line {
+  display: none;
+}
+
 .btn:active {
   background-color: #008552;
 }
@@ -457,6 +461,7 @@ textarea {
     text-align: center;
     width: 920px;
     font-size: 23px;
+    background-image: none;
   }
 
   .aboutme-container {
@@ -594,9 +599,12 @@ textarea {
     background-color: #008552;
   }
 
-  .line {
-    width: 48px;
-    height: 4px;
-    background-color: #36b37e;
+  .bottom-line {
+    display: flex;
+    color: #d0d9d4;
+  }
+
+  .resume-container {
+    display: none;
   }
 }
