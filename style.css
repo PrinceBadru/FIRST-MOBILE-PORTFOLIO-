@@ -488,6 +488,7 @@ textarea {
 
   .form-section {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     width: 76%;
     margin: 80px auto 110px;
