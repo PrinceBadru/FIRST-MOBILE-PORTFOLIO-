@@ -3,8 +3,12 @@
   justify-content: space-between;
 }
 
+.header-first {
+  display: none;
+}
+
 .second {
-  background-image: url("/images/header-illsutration-mobile@2x.png");
+  background-image: url(./images/header-illsutration-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: top;
@@ -14,6 +18,7 @@
   font-weight: 700px;
   font-size: 40px;
   color: #172b4d;
+  padding: 10px 15px 15px 10px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -144,7 +149,11 @@
 
 .about2 {
   text-align: center;
+  padding: 15px 20px;
   font-size: 23px;
+  background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .butt2 {
@@ -213,8 +222,6 @@
   font-weight: 400;
   display: flex;
   justify-content: center;
-  line-height: 32px;
-  margin-top: 17px;
 }
 
 .touch {
@@ -239,7 +246,7 @@
 }
 
 .resume-container {
-  background-image: url(/images/Group.png);
+  background-image: url(./images/Group.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -251,6 +258,7 @@
 
 .form-section {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
@@ -283,13 +291,17 @@ textarea {
   background-color: #36b37f;
 }
 
+.btn:enabled {
+  background-color: #36b37f;
+}
+
 .btn:active {
   background-color: #008552;
 }
 
 .back-image {
   height: 131px;
-  background-image: url(/images/illustration-contact-form.png);
+  background-image: url(./images/illustration-contact-form.png);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -306,6 +318,10 @@ textarea {
     background-color: transparent;
   }
 
+  .first-img {
+    display: none;
+  }
+
   .second {
     background-image: url(./images/Header-llustration-desktop.png);
     background-repeat: no-repeat;
@@ -317,6 +333,20 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .third {
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    vertical-align: top;
+    color: #172b4d;
+  }
+
+  .green {
+    color: #36b37e;
   }
 
   .second h1 {
@@ -349,6 +379,34 @@ textarea {
     gap: 20px;
   }
 
+  .lang-text {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .lang-text-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .last {
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    font-size: 20px;
+    height: 189px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+    margin-top: 17px;
+  }
+
   .socials-list {
     width: 30px;
     height: 30px;
@@ -377,7 +435,22 @@ textarea {
   }
 
   .project {
+    border: 1px solid green;
+    margin: 0;
+    width: 327px;
+    padding: 0;
+    border-radius: 8px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
     margin-bottom: 32px;
+  }
+
+  .language-icon {
+    display: flex;
+    justify-content: center;
   }
 
   .about2 {
@@ -452,6 +525,14 @@ textarea {
     font-size: 20px;
   }
 
+  .li-lang {
+    border: 5px solid #fff;
+    background-color: #fff;
+    color: #36b37e;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+  }
+
   .aboutme section {
     display: flex;
     background-image: url(/images/illustration-about\ me-1-desktop@2x.jpg);
@@ -481,10 +562,6 @@ textarea {
     justify-content: flex-start;
   }
 
-  .last {
-    height: 10px;
-  }
-
   .contact {
     display: flex;
     background-image: url(./images/illustration-1-contact-form-desktop.png), url(./images/contact\ form-illustratoin-3-desktop.png);
@@ -507,5 +584,19 @@ textarea {
     font-size: 17px;
     border: none;
     border-radius: 5px;
+  }
+
+  .btn:hover {
+    background-color: #36b37f;
+  }
+
+  .btn:active {
+    background-color: #008552;
+  }
+
+  .line {
+    width: 48px;
+    height: 4px;
+    background-color: #36b37e;
   }
 }
