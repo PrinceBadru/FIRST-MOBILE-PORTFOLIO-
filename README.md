@@ -38,10 +38,10 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
+https://princebadru.github.io/FIRST-MOBILE-PORTFOLIO-/
 
 
-
-## Authors
+## Author
 
 👤 **BADRU NDAWULA**
 
@@ -63,8 +63,9 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
+
