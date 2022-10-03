@@ -13,7 +13,7 @@
 
 ## Live Demo ( Not available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://princebadru.github.io/FIRST-MOBILE-PORTFOLIO-/)
 
 
 ## Getting Started
@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
-https://princebadru.github.io/FIRST-MOBILE-PORTFOLIO-/
+
 
 
 ## Author
