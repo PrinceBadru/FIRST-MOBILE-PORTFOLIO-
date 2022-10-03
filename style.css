@@ -3,8 +3,12 @@
   justify-content: space-between;
 }
 
+.header-first {
+  display: none;
+}
+
 .second {
-  background-image: url("/images/header-illsutration-mobile@2x.png");
+  background-image: url(./images/header-illsutration-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: top;
@@ -34,7 +38,7 @@
   flex-direction: row;
   align-items: flex-end;
   list-style: none;
-  padding: 0;
+  padding: 5;
   gap: 20px;
 }
 
@@ -104,6 +108,7 @@
   font-size: 17px;
   border: none;
   border-radius: 5px;
+  transition: 0.8s;
 }
 
 .language {
@@ -213,15 +218,22 @@
   font-family: 'Inter', sans-serif;
   font-style: regular;
   font-size: 20px;
-  text-align: center;
+  height: 189px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
 
 .touch {
   font-family: 'Inter', sans-serif;
   font-style: bold;
-  font-size: 43px;
+  font-size: 40px;
   text-align: center;
   align-items: center;
+  margin-bottom: 58px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
 }
 
 .textareas {
@@ -234,7 +246,7 @@
 }
 
 .resume-container {
-  background-image: url(/images/Group.png);
+  background-image: url(./images/Group.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -242,4 +254,358 @@
 .skills-container {
   gap: 20px;
   justify-content: center;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 1;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+
+textarea {
+  padding: 0%;
+  margin-bottom: 24px;
+  width: 305px;
+  height: 114px;
+}
+
+.button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: #36b37f;
+}
+
+.btn:enabled {
+  background-color: #36b37f;
+}
+
+.bottom-line {
+  display: none;
+}
+
+.btn:active {
+  background-color: #008552;
+}
+
+.back-image {
+  height: 131px;
+  background-image: url(./images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media (min-width: 678px) {
+  .first {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    min-height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+
+  .first-img {
+    display: none;
+  }
+
+  .second {
+    background-image: url(./images/Header-llustration-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .third {
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    vertical-align: top;
+    color: #172b4d;
+  }
+
+  .green {
+    color: #36b37e;
+  }
+
+  .second h1 {
+    margin: 0 0 24px 0;
+  }
+
+  .header-first {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .second-text {
+    padding: 10px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .lang-text {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .lang-text-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .last {
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    font-size: 20px;
+    height: 189px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+    margin-top: 17px;
+  }
+
+  .socials-list {
+    width: 30px;
+    height: 30px;
+  }
+
+  .disabled {
+    height: 40px;
+    width: 40px;
+  }
+
+  .recent {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+
+  .project-container {
+    display: flex;
+    padding: 30px 30px;
+  }
+
+  .design-1 {
+    gap: 32px;
+  }
+
+  .project {
+    border: 1px solid green;
+    margin: 0;
+    width: 327px;
+    padding: 0;
+    border-radius: 8px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .language-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about2 {
+    text-align: center;
+    width: 920px;
+    font-size: 23px;
+    background-image: none;
+  }
+
+  .aboutme-container {
+    width: 100vw;
+    margin-top: 112px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skills-container {
+    display: flex;
+    margin-top: 52px;
+  }
+
+  .project2 {
+    border: 1px solid green;
+    margin: 30px;
+    padding: 20px 1px;
+    width: 374px;
+    height: 250px;
+    background-color: #e2e6ee;
+  }
+
+  .form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 76%;
+    margin: 80px auto 110px;
+    background-image: url(./images/illustration-2-contact-form-desktop@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  .form-description {
+    width: 40%;
+  }
+
+  .contact-form {
+    width: 55%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .new-background {
+    background-image: url(./images/illustration-2-contact-form-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-left: 119px;
+  }
+
+  .work-section {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-text {
+    width: 920px;
+    font-size: 20px;
+  }
+
+  .li-lang {
+    border: 5px solid #fff;
+    background-color: #fff;
+    color: #36b37e;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .aboutme section {
+    display: flex;
+    background-image: url(/images/illustration-about\ me-1-desktop@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .new section {
+    display: flex;
+  }
+
+  .touch {
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 52px;
+    height: 256px;
+    color: #172b4d;
+  }
+
+  .button {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .contact {
+    display: flex;
+    background-image: url(./images/illustration-1-contact-form-desktop.png), url(./images/contact\ form-illustratoin-3-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+  }
+
+  .aboutme-background {
+    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg), url(./images/illustration-about-me-2-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top right, top left;
+  }
+
+  .btn {
+    background-color: #36b37f;
+    color: white;
+    width: 122px;
+    height: 48px;
+    margin: 20px 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background-color: #36b37f;
+  }
+
+  .btn:active {
+    background-color: #008552;
+  }
+
+  .bottom-line {
+    display: flex;
+    color: #d0d9d4;
+  }
+
+  .resume-container {
+    display: none;
+  }
 }
