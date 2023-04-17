@@ -2,8 +2,8 @@
 
 # First Mobile Portfolio
 
-> Description of the project.
-> This project is my first project that is built using the mobile first approach and is flexible to display webpage content on both mobile devices and desktop devices.
+# Description of the project.
+ - This project is my first project that is built using the mobile first approach and is flexible to display webpage content on both mobile devices and desktop devices.
 
 ## Built With
 
